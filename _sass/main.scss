@@ -4,8 +4,8 @@
 // these are brought in via '$ grunt install'
 @import 'bourbon';
 
-@import 'normalize';
-@import 'breakpoint/_breakpoint';
+@import 'components/_normalize';
+@import 'components/_breakpoint';
 
 // each component style should be agnostic to it's surroundings
 @import 'components';
