@@ -10,7 +10,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-  <link href="styles/style.css" rel="stylesheet">
+  <link href="styles/main.css" rel="stylesheet">
   <script src="scripts/vendor/modernizr-2.6.1.min.js"></script>
 </head>
 <body>

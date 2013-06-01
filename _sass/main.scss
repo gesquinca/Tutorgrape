@@ -5,7 +5,7 @@
 @import 'bourbon';
 
 @import 'normalize';
-@import 'breakpoint';
+@import 'breakpoint/_breakpoint';
 
 // each component style should be agnostic to it's surroundings
 @import 'components';
