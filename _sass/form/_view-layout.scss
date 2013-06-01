@@ -1,0 +1,19 @@
+// MIXINS
+
+@mixin mark($color) {
+  outline: 1px solid rgba($color, 0.25);
+  background-color: rgba($color, 0.15);
+}
+
+// MARK BREAKPOINT MARKUP ELEMENTS
+.wrapper {
+  @include mark(green);
+}
+.grid {
+  @include mark(blue);
+}
+.grid__cell {
+  @include mark(red);
+}
+
+$grid-overlay: true;

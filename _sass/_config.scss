@@ -1,0 +1,23 @@
+// Grid Variables
+// ==========================================================================
+
+$grid-column: 60px;
+$grid-gutter: 16px;
+
+$base-font-size: 16px;
+
+// generate visual grid overlay on class .grid-overlay
+// $grid-overlay: true;
+
+// fallback breakpoint (column count for < IE9)
+$ie-support: false;
+
+// label for your mobile first breakpoint
+$breakpoint-list: 'small';
+
+// Path to server's static files directory
+// Do not use a trailing slash
+$static-path: '/static';
+
+// Project Variables
+// ==========================================================================

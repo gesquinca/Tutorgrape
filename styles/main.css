@@ -1,0 +1,287 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_mixins\.scss}line{font-family:\0000316}}
+.clearfix {
+  *zoom: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_mixins\.scss}line{font-family:\0000315}}
+  .clearfix:before, .clearfix:after {
+    display: table;
+    content: ""; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_mixins\.scss}line{font-family:\0000315}}
+  .clearfix:after {
+    clear: both; }
+
+/* normalize.css v1.0.0 | MIT License | git.io/normalize */
+/* ==========================================================================
+   HTML5 display definitions
+   ========================================================================== */
+/*
+ * Corrects `block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\0000334}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block; }
+
+/*
+ * Addresses margin not present in IE 6/7/8/9, Safari 5, and Opera 11.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\0000342}}
+figure {
+  margin: 0; }
+
+/*
+ * Corrects `inline-block` display not defined in IE 6/7/8/9 and Firefox 3.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\0000352}}
+audio,
+canvas,
+video {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1; }
+
+/*
+ * Prevents modern browsers from displaying `audio` without controls.
+ * Remove excess height in iOS 5 devices.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\0000363}}
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/*
+ * Addresses styling for `hidden` attribute not present in IE 7/8/9, Firefox 3,
+ * and Safari 4.
+ * Known issue: no IE 6 support.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\0000374}}
+[hidden] {
+  display: none; }
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+/*
+ * 1. Corrects text resizing oddly in IE 6/7 when body `font-size` is set using
+ *    `em` units.
+ * 2. Prevents iOS text size adjust after orientation change, without disabling
+ *    user zoom.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\0000391}}
+html {
+  font-size: 100%;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */ }
+
+/*
+ * Addresses `font-family` inconsistency between `textarea` and other form
+ * elements.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\00003106}}
+html,
+button,
+input,
+select,
+textarea {
+  font-family: sans-serif; }
+
+/*
+ * Addresses margins handled incorrectly in IE 6/7.
+ */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_normalize\.scss}line{font-family:\00003114}}
+body {
+  margin: 0; }
+
+@media (min-width: 0px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\0000323}}
+  body::before {
+    content: 'mobile';
+    display: none; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003123}}
+body::after {
+  content: '';
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  pointer-events: none;
+  background: -webkit-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+  background: -moz-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+  background: -ms-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+  background: -o-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+  background: linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+  left: 0;
+  right: 20px;
+  -webkit-background-size: 25%;
+  -moz-background-size: 25%;
+  -ms-background-size: 25%;
+  -o-background-size: 25%;
+  background-size: 25%; }
+
+/* Grid based on https://github.com/necolas/griddle by Nicolas Gallagher (@necolas) */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\000037}}
+body {
+  font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000311}}
+.wrapper {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25em;
+  padding-right: 1.25em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000319}}
+img {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000320}}
+.no-js .responsive-image {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000325}}
+.grid {
+  display: block;
+  padding: 0;
+  margin: 0 -0.625em;
+  text-align: left;
+  letter-spacing: -0.31em;
+  word-spacing: -0.43em;
+  text-rendering: optimizespeed; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000344}}
+.grid > .grid {
+  overflow: hidden;
+  margin-right: 0;
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000354}}
+.grid-cell {
+  width: 100%;
+  display: inline-block;
+  vertical-align: baseline;
+  zoom: 1;
+  *display: inline;
+  *vertical-align: auto;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0 0.625em;
+  /* controls vertical positioning of units */
+  vertical-align: top;
+  /* keeps unit content correctly aligned */
+  text-align: left;
+  /* reset text defaults */
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-rendering: auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_mixins\.scss}line{font-family:\0000311}}
+  .lt-ie8 .grid-cell {
+    behavior: url(//js/boxsizing.htc); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000374}}
+.grid-center {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-core\.scss}line{font-family:\0000382}}
+.grid-cell-center {
+  display: block;
+  margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Sites\/Labs\/Boilerplate\/Boilerplate-mk5-working\/_sass\/main\.scss}line{font-family:\0000331}}
+body {
+  min-width: 100%; }
+
+@media (min-width: 21.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003123}}
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: -webkit-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -moz-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -ms-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -o-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    left: 50%;
+    width: 21.25em;
+    margin-left: -10.625em;
+    -webkit-background-size: 80px;
+    -moz-background-size: 80px;
+    -ms-background-size: 80px;
+    -o-background-size: 80px;
+    background-size: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003113}}
+  body::before {
+    content: "small"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003115}}
+  .wrapper {
+    width: 18.75em; } }
+@media (min-width: 41.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003123}}
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: -webkit-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -moz-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -ms-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -o-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    left: 50%;
+    width: 41.25em;
+    margin-left: -20.625em;
+    -webkit-background-size: 80px;
+    -moz-background-size: 80px;
+    -ms-background-size: 80px;
+    -o-background-size: 80px;
+    background-size: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003113}}
+  body::before {
+    content: "mid"; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003115}}
+  .wrapper {
+    width: 38.75em; } }
+@media (min-width: 61.25em) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003123}}
+  body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    pointer-events: none;
+    background: -webkit-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -moz-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -ms-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: -o-linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    background: linear-gradient(left, transparent 20px, rgba(255, 0, 0, 0.1) 20px, rgba(255, 0, 0, 0.1) 80px);
+    left: 50%;
+    width: 61.25em;
+    margin-left: -30.625em;
+    -webkit-background-size: 80px;
+    -moz-background-size: 80px;
+    -ms-background-size: 80px;
+    -o-background-size: 80px;
+    background-size: 80px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/gesquinca\/Development\/GitHub\/Breakpoint\/static\/sass\/framework\/_grid-helpers\.scss}line{font-family:\00003115}}
+  .wrapper {
+    width: 58.75em; } }
